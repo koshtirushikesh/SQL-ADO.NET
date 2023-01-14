@@ -31,4 +31,5 @@ FROM sys.databases;
 GO
 
 
-select * from employee_payroll
+select * from employee_payroll 
+select EmplayeeId,EmployeeName,BasicPay from employee_payroll
