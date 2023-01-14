@@ -31,6 +31,7 @@ FROM sys.databases;
 GO
 
 
-select * from employee_payroll 
+select * from employee_payroll ;
 select EmployeeName,BasicPay from employee_payroll where EmployeeName='jon'
-select EmployeeName,BasicPay from employee_payroll where StartDate BETWEEN '2018-01-01' AND Date(Now());
+
+
